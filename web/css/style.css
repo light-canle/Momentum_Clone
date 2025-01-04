@@ -1,3 +1,27 @@
 .hidden {
     display: none;
 }
+
+h2#clock {
+    color : white;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom : 1rem;
+}
+
+h1#greeting {
+    color: white;
+    font-size : 65px;
+    margin-top: 1rem;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+#quote{
+    margin-top: 6rem;
+    color :wheat;
+}

@@ -7,6 +7,15 @@
     <title>Momentum Clone</title>
 </head>
 <body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+
     <form id="login-form" class="hidden">
         <input required maxlength="20" type="text" placeholder="What is your name?" />
         <button>Log In</button>
@@ -17,18 +26,19 @@
     </form>
     <ul id="todo-list"></ul>
 
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
+    
 
     <div id = "quote">
         <span></span>
         <span></span>
     </div>
     
+    <script src="js/key.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
