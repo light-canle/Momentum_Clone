@@ -8,11 +8,11 @@ function onGeoSuccess(position){
     .then(resonse => resonse.json())
     .then(data => {
         const location = document.querySelector("#weather span:nth-child(1)");
-        location.innerText = data.name; // 지역 이름
+        location.innerText = `${data.name} (${lat.toFixed(4)} ${lon.toFixed(4)})`; // 지역 이름
         const weather = document.querySelector("#weather span:nth-child(2)");
         weather.innerText = data.weather[0].main; // 날씨
         const temp = document.querySelector("#weather span:nth-child(3)");
-        temp.innerText = data.main.temp; // 기온
+        temp.innerText = data.main.temp.toFixed(1) + "˚C"; // 기온
     });
 }
 

@@ -6,7 +6,7 @@ h2#clock {
     color : white;
     font-size: 65px;
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 12rem;
     margin-bottom : 1rem;
 }
 
@@ -23,5 +23,9 @@ body {
 
 #quote{
     margin-top: 6rem;
-    color :wheat;
+    background-color :wheat;
+}
+
+#weather{
+    background-color: white;
 }
